@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Workforce</title>
+  </head>
+  <body>
+    <!--Top Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid" style="background-color: #5FBFFF;">
+        <a class="navbar-brand" href="#">Workforce </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Jobs</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Create New Job
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Job Type 1</a></li>
+                <li><a class="dropdown-item" href="#">Job Type 2</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Create New Type</a></li>
+              </ul>
+            </li>
+          </ul>
+          <a class="nav-link" aria-current="page" href="#" style="color: #000000;">Connect With Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Background Circles ----------------------------------- -->
+    <div>
+      <style>
+      .circle {
+        position: relative;
+        background-color: #0596FF;
+        border-radius: 50%;
+        opacity: 10%;
+
+      }
+      .one {
+        height: 12.5rem;
+        width: 12.5rem;
+        right: 6.25rem;
+        bottom: 0.438rem;
+      }
+      .two {
+        height: 5rem;
+        width: 5rem;
+        left: 31.25rem;
+        bottom: 9.375rem;
+      }
+      .three {
+        height: 6.25rem;
+        width: 6.25rem;
+        left: 68.75rem;
+        bottom: 16.25rem;
+      }
+      .four {
+        height: 15.625rem;
+        width: 15.625rem;
+        left: 35.625rem;
+        bottom: 12.5rem; 
+      }
+      .five {
+        height: 12.5rem;
+        width: 12.5rem;
+        left: 3.125rem;
+        bottom: 23.125rem; 
+      }
+      .clipart{
+        position: absolute;
+        width: 26.25rem;
+        height: 26.25rem;
+        left: 43.75rem;
+        top: 6.25rem;
+      }
+      .heading{
+        font-family: Calibri;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.188rem;
+        line-height: 3.688rem;
+        display: flex;
+        align-items: center;
+      }
+      .journey{
+        position: absolute;
+        width: 41.25rem;
+        height: 7.625rem;
+        left: 6.25rem;
+        top: 5.625rem;
+      }
+      .jobs{
+        position: absolute;
+        width: 41.25rem;
+        height: 7.625rem;
+        left: 6.25rem;
+        top: 15rem;
+      }
+      .signup{
+        position: absolute;
+        height: 3.125rem;
+        width: 21.875rem;
+        color: #000000;
+        font-size: 1.25rem;
+        bottom: 0.25rem;
+        }
+      </style>
+      <!-- Main ---------------------------------------------------------------- -->
+
+      <div class="journey heading">Start your journey as a jobber</div>
+      <button type="button" class="btn btn-primary signup" style="left: 6.25rem; top: 12.5rem;">Sign up as Jobber</button>
+
+      <div class="jobs heading">To get your jobs done</div>
+      <button type="button" class="btn btn-primary signup" style="left: 6.25rem; top: 21.875rem;">Sign up to create jobs</button>
+
+      <div class="circle one"></div>
+      <div class="circle two"></div>
+      <div class="circle three"></div>
+      <div class="circle four"></div>
+      <div class="circle five"></div>
+      <img src="clipart.png" class="clipart">
+    </div>
+<!-- Why Us ------------------------------------------------------------------------------ -->
+    <style>
+      .why-us{
+        position: relative;
+        bottom: 18rem;
+        display: flex;
+        background-color: rgba(5, 150, 255, 0.1);
+        /*flex-direction: row;*/
+        justify-content: center;
+      }
+      .why-us > div{
+        text-align: center;
+        margin: 3.125rem 3.125rem 0rem 3.125rem;
+      }
+
+      </style>
+    <div class="why-us row">
+      <div style="font-family: Calibri;font-size: 35px; text-align: center;">
+        <img src="why.png" style="height: 6rem; width: auto;">Why Workforce</div>
+      <div class="col-sm-6" style="width: 8rem; margin-right: 6rem; margin-left: 6rem;">
+        <img src="icon1.png" class="card-img-top">
+        <div class="card-body">
+          <p class="card-text">First Time in India</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6" style="width: 8rem; margin-right: 6rem; margin-left: 6rem;">
+        <img src="icon2.png" class="card-img-top">
+        <div class="card-body">
+          <p class="card-text">Easy to Use</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6" style="width: 8rem; margin-right: 6rem; margin-left: 6rem;">
+        <img src="icon3.png" class="card-img-top">
+        <div class="card-body">
+          <p class="card-text">Earn Real Money</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6" style="width: 8rem; margin-right: 6rem; margin-left: 6rem;">
+        <img src="icon4.png" class="card-img-top">
+        <div class="card-body">
+          <p class="card-text">Categoty-wise job search</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Section --------------------------------------------------------------- -->
+    <style>
+      .FAQ{
+        position: relative;
+        bottom: 15rem;
+      }
+    </style>
+    <div>
+      <div class="FAQ heading">
+        <img src="faq.png" style="height: 6.25rem; margin-right: 2rem; margin-left: 2.5rem;"> Frequently Asked Questions
+      </div>
+      <div class="accordion" id="accordionExample" style="position: relative; bottom: 14rem;">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              How can I Earn Money?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How do I post a job?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              How do i search for a job?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Follow Us-->
+    <style>
+      .social{
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+      }
+    </style>
+    <div style="
+        position: relative; font-family: Calibri;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5rem; 
+        text-align: center;
+        bottom: 8rem;">
+      Follow us on:
+      <a href="https://twitter.com/home?lang=en"><i class="fab fa-twitter social"></i></a>
+      <a href="https://www.instagram.com/"><i class="fab fa-instagram social"></i></a>
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-f social"></i></a>
+      <a href="https://www.youtube.com/"><i class="fab fa-youtube social"></i></a>
+    </div>
+
+    <!-- Footer ---------------------------------------- -->
+    <style>
+      .footer{
+        background-color: rgba(5, 150, 255, 0.1);
+      }
+    </style>
+    <div class="footer row" style="text-align: right;">
+      <div class="col-sm-6" style="position: relative; left: 18rem;">
+        <h5>Copyright © 2021 Workforce, PIPD Project | Aplha Version 1.0</h5>
+      </div>
+      <div class="col-sm-6" style="position: relative; right: 2rem;">
+        <p>Contact Us</p>
+        <p>Sanjeet (iit2020052@iiita.ac.in)</p>
+        <p>Shivanng (iec2020035@iiita.ac.in)</p>
+        <p>Ritej (iit2020006@iiita.ac.in)</p>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Icon source -->
+    <script src="https://kit.fontawesome.com/1f638b718b.js" crossorigin="anonymous"></script>
+  </body>
+</html>
